@@ -6,7 +6,8 @@ using namespace std;
 
 int main() {
     ofstream file("attendance.csv");
-
+    
+file << "2025004,Akosua Yeboah,Present\n";
 file << "2025005,Daniel Gyan,Present\n";
 file << "2025006,Priscilla Arthur,Absent\n";
 file << "2025007,Michael Oppong,Late\n";
